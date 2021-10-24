@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_profil"
+            android:icon="@drawable/ic_profil"
+            android:title="Profil" />
+    </group>
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_photo"
+            android:icon="@drawable/ic_photo"
+            android:title="Galery" />
+    </group>
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_hobi"
+            android:icon="@drawable/ic_hobi"
+            android:title="Hobi" />
+    </group>
+
+</menu>
